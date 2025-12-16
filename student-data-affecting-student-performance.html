@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+  <title>Student Data affecting Student Performance — EduTrends</title>
+  <style>
+    body{background:#f7f9fb;font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,'Helvetica Neue',Arial}
+    .hero { background: linear-gradient(180deg, #f6fbff 0%, #ffffff 100%); padding: 2rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.05); }
+    .section-card { border-radius: 8px; border: 0; box-shadow: 0 3px 8px rgba(95,99,104,0.08); overflow: hidden }
+    .section-card .card-body { padding: 1.6rem }
+    .section-title { font-size: 1.25rem; font-weight: 600; margin-bottom: .5rem }
+    .lead-desc { font-size: 1rem; color: #333; margin-bottom: .75rem }
+    .embed-wrapper { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden }
+    .embed-wrapper iframe { position:absolute; top:0; left:0; width:100%; height:100%; border:0 }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">EduTrends</a>
+  </nav>
+  <div class="container mt-4">
+    <div class="hero">
+      <h1 class="mb-2">Student Data affecting Student Performance</h1>
+      <p class="mb-0 text-muted">Explore student-level factors like attendance, motivation, and sleep vs. their academic outcomes.</p>
+    </div>
+    <div class="mt-4 text-right">
+      <a class="btn btn-outline-primary btn-sm" href="index.html">← Back to Home</a>
+    </div>
+    <section class="card section-card my-4">
+      <div class="card-body">
+        <div class="section-title">Attendance Rate vs Performance</div>
+        <p class="lead-desc">This graph compares student attendance rates to their performance, with added detail about the hours each student studied in preparation for their exam and also their previous exam scores. As attendance rate increases, so do test scores, on average. There are a few outliers but for the most part, those who attended more classes scored higher. There is also a trend in which those who studied longer performed better. Even if their attendance was poor, longer studying times still tended to improve scores, especially when compared with other students with similar attendance rates. Students who had good attendance and studied more tended to score closer to or better than their previous scores on this exam, while students that studied less or had lower attendance tended to score much worse than they had in the past.</p>
+        <div class="embed-wrapper my-3">
+          <iframe src="visual2.html" title="Attendance Rate vs Performance" role="img" aria-label="Attendance and exam score scatter plot"></iframe>
+        </div>
+        <p class="text-right small mb-0"><a href="visual2.html" target="_blank" rel="noopener noreferrer">Open full visual</a></p>
+      </div>
+    </section>
+    <section class="card section-card mb-4">
+      <div class="card-body">
+        <div class="section-title">Motivation, Parental/Peer Involvement & Internet Access</div>
+        <p class="lead-desc">This graph compiles the student performance data to reveal trends between student motivation, parental involvement, peer influence, and internet access. The most noticeable insight is that the vast majority of students have access to the internet. Another interesting insight is that the majority of highly motivated students have medium levels of parental involvement. This likely points to medium involvement as the preferable option, because it both builds independence in students and also ensures they feel supported and cared for. High parental involvement has more highly motivated students than low involvement does, implying that ensuring students feel supported is preferable to giving students high levels of independence. This trend is also reflected when low motivation level students are analyzed, as while the majority of them do have medium levels of parental involvement, their second-highest level of parental involvement is low, hinting at the necessity of parental care in academic performance.</p>
+        <div class="embed-wrapper my-3">
+          <iframe src="visual5.html" title="Motivation vs Parental/Peer Involvement" role="img" aria-label="Motivation and involvement relationships"></iframe>
+        </div>
+        <p class="text-right small mb-0"><a href="visual5.html" target="_blank" rel="noopener noreferrer">Open full visual</a></p>
+      </div>
+    </section>
+    <section class="card section-card mb-4">
+      <div class="card-body">
+        <div class="section-title">Hours of Sleep vs Exam Score</div>
+        <p class="lead-desc">This graph compares the hours of sleep a student received versus their exam score. The median score across all levels was 67, which doesn’t indicate a significant difference between the amount of sleep each student receives. However, the maximum scores tend to peak between 6-8 hours of sleep, generally dipping on either side except for the 4 hours of sleep data, which contains the second highest score. However, the median score for 4 hours of sleep doesn’t change at all, indicating that the scores seen in the high 90s could simply be outliers.</p>
+        <div class="embed-wrapper my-3">
+          <iframe src="visual6.html" title="Hours of Sleep vs Exam Score" role="img" aria-label="Hours of sleep and exam score plot"></iframe>
+        </div>
+        <p class="text-right small mb-0"><a href="visual6.html" target="_blank" rel="noopener noreferrer">Open full visual</a></p>
+      </div>
+    </section>
+    <section class="card section-card mb-4">
+      <div class="card-body">
+        <div class="section-title">Motivation Level vs Hours Studied (Peer Influence)</div>
+        <p class="lead-desc">This graph compares motivation levels to exam score, separating the data by peer influence categories of positive, negative, and neutral. When compared to the other two groups, those with negative peer influence had lower median scores no matter their motivation level. This group also had the lowest minimum scores. In comparison, those with positive peer influences had higher median and maximum scores than their peers with negative or neutral peer influences. Looking at motivation levels, scores did tend to trend upwards with higher motivation levels, especially when focusing on the q3 scores. The highest score was achieved by a student with positive peer influence and low motivation levels, showing that motivation levels are not a direct predictor of performance and that positive peer influence is beneficial. This point is emphasized by the fact that the minimum score was achieved by a student with negative peer influence.</p>
+        <div class="embed-wrapper my-3">
+          <iframe src="visual8.html" title="Motivation Level vs Hours Studied" role="img" aria-label="Motivation, hours studied and peer influence plot"></iframe>
+        </div>
+        <p class="text-right small mb-0"><a href="visual8.html" target="_blank" rel="noopener noreferrer">Open full visual</a></p>
+      </div>
+    </section>
+    <p><a href="index.html">Back to Home</a></p>
+  </div>
+</body>
+</html>

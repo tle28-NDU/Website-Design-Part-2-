@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+  <title>University Data and Demographics — EduTrends</title>
+  <style>
+    body{background:#f7f9fb;font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,'Helvetica Neue',Arial}
+    .hero { background: linear-gradient(180deg, #f6fbff 0%, #ffffff 100%); padding: 2rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.05); }
+    .section-card { border-radius: 8px; border: 0; box-shadow: 0 3px 8px rgba(95,99,104,0.08); overflow: hidden }
+    .section-card .card-body { padding: 1.6rem }
+    .section-title { font-size: 1.25rem; font-weight: 600; margin-bottom: .5rem }
+    .lead-desc { font-size: 1rem; color: #333; margin-bottom: .75rem }
+    .embed-wrapper { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden }
+    .embed-wrapper iframe { position:absolute; top:0; left:0; width:100%; height:100%; border:0 }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">EduTrends</a>
+  </nav>
+  <div class="container mt-4">
+        <div class="hero">
+          <h1 class="mb-2">University Data and Demographics</h1>
+          <p class="mb-0 text-muted">Explore institutional and demographic patterns across the United States and how they relate to student outcomes.</p>
+        </div>
+        <div class="mt-4 text-right">
+          <a class="btn btn-outline-primary btn-sm" href="index.html">← Back to Home</a>
+        </div>
+
+    <section class="card section-card my-4">
+      <div class="card-body">
+        <div class="section-title">Tuition & Fees vs Degrees Awarded</div>
+        <p class="lead-desc">This graph compares the average cost of attending school at various universities with the number of degrees awarded, separated by school size. As cost increases, the total amount of degrees awarded tends to remain relatively steady on average. As the cost increases for small schools, both bachelor's and master's degrees increase, but as the cost increases for medium and large schools, bachelor's degrees tend to slightly decrease and master's degrees tend to increase. At large, expensive schools, the number of bachelor's degrees and master's degrees awarded are very similar, but at expensive medium and small schools, there are still many more bachelor's degrees awarded than master's degrees.</p>
+        <div class="embed-wrapper my-3">
+          <iframe src="visual3.html" title="Tuition vs Degrees" role="img" aria-label="Tuition and fees vs degrees awarded plot"></iframe>
+        </div>
+        <p class="text-right small mb-0"><a href="visual3.html" target="_blank" rel="noopener noreferrer">Open full visual</a></p>
+      </div>
+    </section>
+
+    <section class="card section-card my-4">
+      <div class="card-body">
+        <div class="section-title">University Size and ACT Scores Across the US</div>
+        <p class="lead-desc">This graph shows a map of the United States. Each dot is a university. The size represents the total number of enrolled students and the color is a representation of the 75th percentile ACT Composite score at the university, which is a good metric for seeing the academic prowess of students attending the school. There are many more universities in the eastern half of the US than the western, with an especially large concentration in the Northeastern coastal region. Larger universities tend to have higher ACT scores than the small universities do. There are few large universities with a score of 20 or under. There are no real distinctions that can be drawn regarding education quality based on the graph. No geographical region has a clearly higher or lower score average than others, and the most noticeable distinction is the location of the schools, which falls in line with the overall infrastructure of the country. The Eastern, and especially the Northeastern region, of the US is much more densely populated than western states like Colorado or Wyoming and so it makes sense that there is a much higher concentration of colleges located in that region compared to the few located in the Great Plains and Rocky Mountain regions.</p>
+        <div class="embed-wrapper my-3">
+          <iframe src="visual4.html" title="University size and ACT score" role="img" aria-label="Map of US universities sized by enrollment and colored by ACT score"></iframe>
+        </div>
+        <p class="text-right small mb-0"><a href="visual4.html" target="_blank" rel="noopener noreferrer">Open full visual</a></p>
+      </div>
+    </section>
+
+    <section class="card section-card my-4">
+      <div class="card-body">
+        <div class="section-title">Religious Affiliation of Universities Across the US</div>
+        <p class="lead-desc">This map of the US has the religious affiliation of colleges and universities across the country in relation to their size. The hover data also states whether they are public or private. Looking at the graph, the majority of universities and colleges are not religiously affiliated at all, but of the ones that are, there is a good amount of different faith traditions represented, most of which are a form of Christianity. The religiously-affiliated schools are also private under federal law which requires separation of church and state, but not all private schools are also religiously affiliated. However, on average, the private and religiously affiliated schools tend to be smaller than the public schools. The religious affiliations of schools also tend to match the historical religious tendencies of the geographic region they are located in; for instance, Latter-Day Saints affiliated schools are found in the Western region around Utah and Idaho while Baptist schools are more common in the Southern region of the country, and the Northeast region contains largely Roman Catholic schools. There is also a relationship between the size of the religion and the size and amount of schools affiliated with it. For instance, there are lots of Roman Catholic and Baptist schools that are decently sized, sometimes comparable with public schools, but there are very few schools from less common faith traditions and those affiliated with less common faith traditions tend to be much smaller. All in all, mapping the religious affiliation of schools across the country helps show the diversity of faith traditions across America and helps represent the historical background of its geographic regions.</p>
+        <div class="embed-wrapper my-3">
+          <iframe src="visual9.html" title="Religious Affiliation map" role="img" aria-label="Map of religious affiliations of universities"></iframe>
+        </div>
+        <p class="text-right small mb-0"><a href="visual9.html" target="_blank" rel="noopener noreferrer">Open full visual</a></p>
+      </div>
+    </section>
+
+    <section class="card section-card my-4">
+      <div class="card-body">
+        <div class="section-title">Historically Black Universities in the US</div>
+        <p class="lead-desc">This graph provides a representation of the amount of historically black universities in the US. Historically Black universities represent a major minority of US schools and universities. This graph shows the result of centuries of oppression based on race. This extreme data disparity is likely the cause of the segregation present in the US throughout the 19th and 20th centuries. The fact that African Americans were not permitted to learn in the same environments as white people likely gave rise to the historically Black universities still existing today that are represented in this graph.  This graph essentially shows a representation of the effects of segregation on US universities and of the resiliency of African American people in the face of racial oppression.</p>
+        <div class="embed-wrapper my-3">
+          <iframe src="visual11.html" title="Historically Black universities" role="img" aria-label="Map or distribution of HBCUs"></iframe>
+        </div>
+        <p class="text-right small mb-0"><a href="visual11.html" target="_blank" rel="noopener noreferrer">Open full visual</a></p>
+      </div>
+    </section>
+
+    <section class="card section-card my-4">
+      <div class="card-body">
+        <div class="section-title">Degree of Urbanization</div>
+        <p class="lead-desc">This pie chart shows the degrees of urbanization of colleges across the United States, showing which infrastructure areas most universities and colleges can be found in. Universities are most commonly located in large cities, while they are least commonly found in remote, rural areas. Interestingly, large suburbs are the second most common location for colleges, followed by small cities and then midsize cities. This could be due to the appeal for good “college towns,” where large cities provide ease of access to lots of job opportunities and resources while city suburbs generally have calmer campuses with similar benefits to actually being located within the city. For this same reason, rural locations are some of the least common locations for universities, as they are isolated from major cities that make travel, work opportunities, and recreational activities easy to access.</p>
+        <div class="embed-wrapper my-3">
+          <iframe src="visual12.html" title="Degree of Urbanization" role="img" aria-label="Pie chart of urbanization of universities"></iframe>
+        </div>
+        <p class="text-right small mb-0"><a href="visual12.html" target="_blank" rel="noopener noreferrer">Open full visual</a></p>
+      </div>
+    </section>
+
+    <p><a href="index.html">Back to Home</a></p>
+  </div>
+</body>
+</html>
