@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+  <title>Family Data affecting Student Performance — EduTrends</title>
+  <style>
+    body{background:#f7f9fb;font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,'Helvetica Neue',Arial}
+    .hero { background: linear-gradient(180deg, #f6fbff 0%, #ffffff 100%); padding: 2rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.05); }
+    .section-card { border-radius: 8px; border: 0; box-shadow: 0 3px 8px rgba(95,99,104,0.08); overflow: hidden }
+    .section-card .card-body { padding: 1.6rem }
+    .section-title { font-size: 1.25rem; font-weight: 600; margin-bottom: .5rem }
+    .lead-desc { font-size: 1rem; color: #333; margin-bottom: .75rem }
+    .embed-wrapper { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden }
+    .embed-wrapper iframe { position:absolute; top:0; left:0; width:100%; height:100%; border:0 }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">EduTrends</a>
+  </nav>
+
+  <div class="container mt-4">
+    <div class="hero">
+      <h1 class="mb-2">Family Data affecting Student Performance</h1>
+      <p class="mb-0 text-muted">
+        How family background, resources, and parental support influence student outcomes, visualized below.
+      </p>
+    </div>
+
+    <div class="mt-4 text-right">
+      <a class="btn btn-outline-primary btn-sm" href="index.html">← Back to Home</a>
+    </div>
+
+    <!-- VISUAL 1 -->
+    <section class="card section-card my-4">
+      <div class="card-body">
+        <div class="section-title">Student Performance by Socioeconomic Status</div>
+        <p class="lead-desc">
+          This graph compares student performance on their exam to their family income, separated into three
+          different categories of Low, Medium, and High.
+        </p>
+        <div class="embed-wrapper my-3">
+          <iframe src="visual1%20(1).html"
+                  title="Student Performance by Socioeconomic Status"
+                  role="img"
+                  aria-label="Box plot and scores by socioeconomic group">
+          </iframe>
+        </div>
+        <p class="text-right small mb-0">
+          <a href="visual1%20(1).html" target="_blank" rel="noopener noreferrer">Open full visual</a>
+        </p>
+        <p class="text-muted small mb-0">
+          Takeaway: High-income students may have a marginal advantage due to better resources and fewer financial stresses.
+        </p>
+      </div>
+    </section>
+
+    <!-- VISUAL 7 -->
+    <section class="card section-card mb-4">
+      <div class="card-body">
+        <div class="section-title">Student Performance by Parental Education</div>
+        <p class="lead-desc">
+          This graph compares student performance based on exam score, parental education level, and hours studied.
+        </p>
+        <div class="embed-wrapper my-3">
+          <iframe src="visual7.html"
+                  title="Student Performance by Parental Education"
+                  role="img"
+                  aria-label="Scatter plot and parental education levels">
+          </iframe>
+        </div>
+        <p class="text-right small mb-0">
+          <a href="visual7.html" target="_blank" rel="noopener noreferrer">Open full visual</a>
+        </p>
+        <p class="text-muted small mb-0">
+          Takeaway: Study time correlates strongly with higher scores; parental education is not a clear predictor.
+        </p>
+      </div>
+    </section>
+
+    <section class="card section-card mb-4">
+      <div class="card-body">
+        <div class="section-title">Parental Involvement vs Exam Score</div>
+        <p class="lead-desc">
+          This graph compares student performance to parental involvement and tutoring sessions.
+        </p>
+        <div class="embed-wrapper my-3">
+          <iframe src="visual10%20(1).html"
+                  title="Parental Involvement vs Exam Score"
+                  role="img"
+                  aria-label="Plot of parental involvement and exam scores">
+          </iframe>
+        </div>
+        <p class="text-right small mb-0">
+          <a href="visual10%20(1).html" target="_blank" rel="noopener noreferrer">Open full visual</a>
+        </p>
+        <p class="text-muted small mb-0">
+          Takeaway: Tutoring correlates with higher scores; parental involvement slightly raises minimum outcomes.
+        </p>
+      </div>
+    </section>
+
+    <p><a href="index.html">Back to Home</a></p>
+  </div>
+</body>
+</html>
